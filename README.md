@@ -40,3 +40,6 @@ Repository untuk Modul 7 & 8 Praktikum ABP
 <h1 align="center">TAHUN 2026</h1>
 
 <hr>
+
+## Link Video dan Presentasi
+https://drive.google.com/drive/folders/1P9ac64gsQTRb3ICzQ8uczbSrpkIr_4sp?usp=sharing
