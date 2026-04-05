@@ -1,0 +1,25 @@
+body{
+    background-color: rgb(199, 199, 199);
+}
+.icon{
+    width: fit-content;
+    background-color: aquamarine;
+    margin: 10px 0;
+    display: flex;
+    
+    gap: 5px;
+    border-radius: 10px;
+}
+
+.icon i{
+    font-size: 35px;
+    margin-bottom: auto;
+    margin-top: auto;
+    padding-top: 2px;
+}
+
+.icon p{
+    font-size: 20px;
+    padding-top: 15px;
+    font-weight: bold;
+}
