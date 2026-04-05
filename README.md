@@ -41,6 +41,10 @@ Repository untuk Modul 7 & 8 Praktikum ABP
 
 <hr>
 
+## Dasar Teori
+
+## Struktur Halaman
+
 ## Koding Program
 ### index.js
 ```js
@@ -51,13 +55,11 @@ const cors = require('cors');
 const app = express();
 const port = 3000;
 
-// Middleware
 app.use(cors());
 app.use(express.json()); 
 app.use(express.urlencoded({ extended: true }));
 app.use(express.static('frontend')); 
 
-// Konfigurasi koneksi MySQL ke phpMyAdmin
 const db = mysql.createConnection({
   host: 'localhost',
   user: 'root',
@@ -69,10 +71,6 @@ db.connect((err) => {
   if (err) throw err;
   console.log('Terkoneksi ke database MySQL!');
 });
-
-// ==========================================
-// API CRUD UNTUK TABEL 'games'
-// ==========================================
 
 // 1. READ: Mengambil semua data game (Untuk DataTables)
 app.get('/api/games', (req, res) => {
@@ -129,7 +127,6 @@ app.delete('/api/games/:id', (req, res) => {
     });
 });
 
-// Menjalankan Server
 app.listen(port, () => {
   console.log(`Server berjalan di http://localhost:${port}`);
 });
@@ -180,7 +177,6 @@ Berikut adalah code main dari proyek yang menggunakan express.js sebagai tempat 
 
     <script>
         $(document).ready(function() {
-            // Inisialisasi DataTables dengan mengambil JSON dari server
             $('#tabelData').DataTable({
                 "ajax": "/api/games",
                 "columns": [
@@ -259,16 +255,14 @@ Halaman  ini menampilkan data kontak ddalam bentuk tabel memakai jQuery DataTabl
     <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
     <script>
         $('#formTambah').submit(function (e) {
-            e.preventDefault(); // Mencegah form reload halaman
+            e.preventDefault(); 
 
-            // Mengambil data dari inputan
             const dataGame = {
                 title: $('#title').val(),
                 genre: $('#genre').val(),
                 price: $('#price').val()
             };
 
-            // Mengirim data ke server via AJAX
             $.ajax({
                 url: '/api/games',
                 type: 'POST',
@@ -329,11 +323,9 @@ Halaman  ini menampilkan form  menambah game baru. Ini adalah bagian C atau crea
     <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
     <script>
         $(document).ready(function () {
-            // 1. Mengambil parameter ID dari URL (contoh: edit.html?id=1)
             const urlParams = new URLSearchParams(window.location.search);
             const idGame = urlParams.get('id');
 
-            // 2. Mengambil data lama dari database dan memunculkannya di form
             $.get(`/api/games/${idGame}`, function (data) {
                 $('#id').val(data.id);
                 $('#title').val(data.title);
@@ -341,7 +333,6 @@ Halaman  ini menampilkan form  menambah game baru. Ini adalah bagian C atau crea
                 $('#price').val(data.price);
             });
 
-            // 3. Mengirim data yang sudah diedit ke server
             $('#formEdit').submit(function (e) {
                 e.preventDefault();
 
