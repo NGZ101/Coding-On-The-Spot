@@ -214,7 +214,7 @@ Berikut adalah code main dari proyek yang menggunakan express.js sebagai tempat 
 </body>
 </html>
 ```
-Halaman  ini menampilkan data kontak ddalam bentuk tabel memakai jQuery DataTables. Data diambil dari server dalam formaat JSON dan ditampilkan secara dinamis. Pada data ini juga tersedia tombol aksi untuk melakukan update dan hapus data.
+Halaman  ini menampilkan data game dalam bentuk tabel memakai jQuery DataTables. Data diambil dari database mysql. Pada halaman tersedia tombol aksi untuk melakukan tambah, update dan hapus data.
 ### tambah.html
 ```html
 <!DOCTYPE html>
