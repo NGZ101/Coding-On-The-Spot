@@ -14,7 +14,7 @@ Repository untuk Modul 7 & 8 Praktikum ABP
 <br><br>
 
 <p align="center">
-<img src="/daftar-kontak/assets/LogoTelkom.png" width="350">
+<img src="LogoTelkom.png" width="350">
 </p>
 <br><br><br>
 
