@@ -280,7 +280,7 @@ Halaman  ini menampilkan data game dalam bentuk tabel memakai jQuery DataTables.
 </body>
 </html>
 ```
-Halaman  ini menampilkan form  menambah game baru. Ini adalah bagian C atau create dari CRUD dan user dan membuat data game berisi judul, genre, serta harga
+Halaman  ini menampilkan form  menambah game baru. Ini adalah bagian C atau create dari CRUD dimana user dapat membuat data game berisi judul, genre, serta harga
 ### edit.html
 ```html
 <!DOCTYPE html>
