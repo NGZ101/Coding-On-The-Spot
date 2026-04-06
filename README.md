@@ -45,7 +45,11 @@ Repository untuk Modul 7 & 8 Praktikum ABP
 <p>CRUD adalah singkatan dari Create (membuat), Read (membaca), Update (memperbarui), dan Delete (menghapus), yang merupakan empat operasi dasar dalam pengelolaan data pada basis data (database)<p>
 <p>Node.js adalah runtime environment untuk JavaScript yang bersifat open-source dan cross-platform. Dengan Node.js kita dapat menjalankan kode JavaScript di mana pun, tidak hanya terbatas pada lingkungan browser. Node.js menjalankan V8 JavaScript engine (yang juga merupakan inti dari Google Chrome) di luar browser. Ini memungkinkan Node.js memiliki performa yang tinggi.<p>
 <p>jQuery adalah library JavaScript yang dirancang untuk menyederhanakan pemrograman HTML. Dengan jQuery, kamu bisa menangani event, membuat animasi, dan melakukan manipulasi dokumen dengan mudah. Plugin jQuery memiliki banyak plugin yang bisa kamu gunakan untuk menambah fungsionalitas pada aplikasi web<p>
+  
 ## Struktur Halaman
+### index.html
+### tambah.html
+### edit.html
 
 ## Koding Program
 ### index.js
