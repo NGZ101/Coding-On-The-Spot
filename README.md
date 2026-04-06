@@ -48,11 +48,11 @@ Repository untuk Modul 7 & 8 Praktikum ABP
   
 ## Struktur Halaman
 ### index.html
-<img src="images/index.png" width="400">
+<img src="images/index.png" width="600">
 ### tambah.html
-<img src="images/tambah.png" width="400">
+<img src="images/tambah.png" width="600">
 ### edit.html
-<img src="images/tambah.png" width="400">
+<img src="images/tambah.png" width="600">
 
 ## Koding Program
 ### index.js
