@@ -14,7 +14,7 @@ Repository untuk Modul 7 & 8 Praktikum ABP
 <br><br>
 
 <p align="center">
-<img src="LogoTelkom.png" width="350">
+<img src="images/LogoTelkom.png" width="350">
 </p>
 <br><br><br>
 
@@ -48,8 +48,11 @@ Repository untuk Modul 7 & 8 Praktikum ABP
   
 ## Struktur Halaman
 ### index.html
+<img src="images/index.png" width="100">
 ### tambah.html
+<img src="images/tambah.png" width="100">
 ### edit.html
+<img src="images/tambah.png" width="100">
 
 ## Koding Program
 ### index.js
